@@ -1,16 +1,4 @@
-def check_licenses(path, config_path):
-    # This function would need to be implemented based on the actual logic of the checkLicenses function in the TypeScript code.
-    pass
-
-
-def filter_failures(results):
-    # This function would need to be implemented based on the actual logic of the filterFailures function in the TypeScript code.
-    pass
-
-
-def get_uncovered_files(path, config_path):
-    # This function would need to be implemented based on the actual logic of the getUncoveredFiles function in the TypeScript code.
-    pass
+from check import check_licenses, filter_failures, get_uncovered_files
 
 
 def run():
