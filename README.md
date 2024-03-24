@@ -1,0 +1,2 @@
+# pylich
+Python license checker
