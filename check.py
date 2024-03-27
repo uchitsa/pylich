@@ -88,7 +88,7 @@ def get_uncovered_files_with_config(cwd: str, config: Config, path_filter: Optio
     return list(remaining_files)
 
 
-def filter_failures(results: List[CheckResult]) -> List[CheckFailure]:
+def filter_failures(results: List[CheckResult]) -> list[CheckResult]:
     return [f for f in results if not f.success]
 
 
